@@ -387,7 +387,7 @@ export const MobileMenu = ({ menus, single }) => {
             Home
             <i className="fas fa-angle-down" />
           </a>
-          <ul className="submenu" style={activeLi("home")}>
+          {/* <ul className="submenu" style={activeLi("home")}>
             <li>
               <Link to="/">Home 01</Link>
             </li>
@@ -400,7 +400,7 @@ export const MobileMenu = ({ menus, single }) => {
             <li>
               <Link to="index-4">Home 04</Link>
             </li>
-          </ul>
+          </ul> */}
           <a
             className="mean-expand"
             to="#"
@@ -422,7 +422,7 @@ export const MobileMenu = ({ menus, single }) => {
         ) : (
           <Fragment>
             <li>
-              <Link to="about">About</Link>
+              <Link to="#">About</Link>
             </li>
             <li>
               <a to="#" onClick={() => activeMenuSet("Services")}>
@@ -444,7 +444,7 @@ export const MobileMenu = ({ menus, single }) => {
                 <i className="far fa-plus" />
               </a>
             </li>
-            <li className="has-dropdown">
+            {/* <li className="has-dropdown">
               <a to="#" onClick={() => activeMenuSet("Pages")}>
                 Pages
                 <i className="fas fa-angle-down" />
@@ -557,7 +557,7 @@ export const MobileMenu = ({ menus, single }) => {
               >
                 <i className="far fa-plus" />
               </a>
-            </li>
+            </li> */}
             <li className="mean-last">
               <Link to="contact">Contact</Link>
             </li>

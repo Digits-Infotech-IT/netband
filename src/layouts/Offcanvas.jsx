@@ -38,7 +38,7 @@ const Offcanvas = ({ closeSidebar, sidebar, single }) => {
                     </div>
                     <div className="offcanvas__contact-text">
                       <a target="_blank" href="#">
-                        Main Street, Melbourne, Australia
+                        Coimbatore
                       </a>
                     </div>
                   </li>
@@ -69,7 +69,7 @@ const Offcanvas = ({ closeSidebar, sidebar, single }) => {
                       <i className="far fa-phone" />
                     </div>
                     <div className="offcanvas__contact-text">
-                      <a href="tel:+11002345909">+11002345909</a>
+                      <a href="tel:+11002345909">+91 9884098840</a>
                     </div>
                   </li>
                 </ul>
